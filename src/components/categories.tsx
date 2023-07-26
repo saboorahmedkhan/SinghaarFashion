@@ -26,7 +26,7 @@ const Categories = () => {
         height={350}
         className='rounded-xl duration-500 group-hover:scale-125'
         />
-        <div className='hidden lg:block absolute -bottom-20 group-hover:bottom-2 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight  bg-myOrange/70 text-center text-myWhite w-full'>
+        <div className='hidden lg:block absolute bottom-20 group-hover:bottom-2 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight  bg-myOrange/70 text-center text-myWhite w-full'>
             <h1 className='uppercase'>Tops</h1>
         </div>
         <div className='block lg:hidden absolute bottom-28 duration-500 z-[100] scroll-m-20 text-3xl font-extrabold tracking-tight  bg-myOrange/70 text-center text-myWhite w-full'>
@@ -45,7 +45,7 @@ const Categories = () => {
         height={350}
         className='rounded-xl duration-500 group-hover:scale-125'
         />
-        <div className='hidden lg:block absolute -bottom-20 group-hover:bottom-2 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight  bg-myOrange/70 text-center text-myWhite w-full'>
+        <div className='hidden lg:block absolute bottom-20 group-hover:bottom-2 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight  bg-myOrange/70 text-center text-myWhite w-full'>
             <h1 className='uppercase'>Pants</h1>
         </div>
         <div className='block lg:hidden absolute bottom-28 duration-500 z-[100] scroll-m-20 text-3xl font-extrabold tracking-tight  bg-myOrange/70 text-center text-myWhite w-full'>
@@ -63,7 +63,7 @@ const Categories = () => {
         height={350}
         className='rounded-xl duration-500 group-hover:scale-125'
         />
-        <div className='hidden lg:block absolute -bottom-20 group-hover:bottom-2 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight  bg-myOrange/70 text-center text-myWhite w-full'>
+        <div className='hidden lg:block absolute bottom-20 group-hover:bottom-2 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight  bg-myOrange/70 text-center text-myWhite w-full'>
             <h1 className='uppercase'>Accessories & Jewellery</h1>
         </div>
         <div className='block lg:hidden absolute bottom-28 duration-500 z-[100] scroll-m-20 text-3xl font-extrabold tracking-tight  bg-myOrange/70 text-center text-myWhite w-full'>
@@ -81,7 +81,7 @@ const Categories = () => {
         height={350}
         className='rounded-xl duration-500 group-hover:scale-125'
         />
-        <div className='hidden lg:block absolute -bottom-20 group-hover:bottom-2 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight  bg-myOrange/70 text-center text-myWhite w-full'>
+        <div className='hidden lg:block absolute bottom-20 group-hover:bottom-2 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight  bg-myOrange/70 text-center text-myWhite w-full'>
             <h1 className='uppercase'>Shoes</h1>
         </div>
         <div className='block lg:hidden absolute bottom-28 duration-500 z-[100] scroll-m-20 text-3xl font-extrabold tracking-tight  bg-myOrange/70 text-center text-myWhite w-full'>
@@ -99,7 +99,7 @@ const Categories = () => {
         height={350}
         className='rounded-xl duration-500 group-hover:scale-125'
         />
-        <div className='hidden lg:block absolute -bottom-20 group-hover:bottom-2 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight  bg-myOrange/70 text-center text-myWhite w-full'>
+        <div className='hidden lg:block absolute bottom-20 group-hover:bottom-2 duration-500 scroll-m-20 text-3xl font-extrabold tracking-tight  bg-myOrange/70 text-center text-myWhite w-full'>
             <h1 className='uppercase'>Bags</h1>
         </div>
         <div className='block lg:hidden absolute bottom-28 duration-500 z-[100] scroll-m-20 text-3xl font-extrabold tracking-tight  bg-myOrange/70 text-center text-myWhite w-full'>

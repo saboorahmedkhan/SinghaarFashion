@@ -26,7 +26,7 @@ const BestSellingCart = ({
 }) => {
   return (
     <div className="max-w-[350px] h-[35rem] p-4 mx-auto shadow-md rounded-xl relative group">
-      <Link href={`/${category}/${slug}}`}>
+      <Link href={`/${category}/${slug}`}>
       {/* image Div */}
     <div>
         <Image className='block h-[23rem] rounded overflow-hidden'
@@ -53,9 +53,11 @@ const BestSellingCart = ({
             ${price}
           </p>
           {/* Discounted Value */}
-          {discount>0 && <p className='mt-2 scroll-m-20 text-base font-semibold tracking-tight text-myBlackHead line-clamp-1'>
+          {discount>0 && (
+          <p className='mt-2 scroll-m-20 text-base font-semibold tracking-tight text-myBlackHead line-clamp-1'>
             ${price - ((price*discount)/100)}
-          </p>}
+          </p>
+          )}
           
           </div>
         )}
@@ -72,7 +74,9 @@ const BestSellingCart = ({
               <BsFillArrowRightCircleFill className='mr-2 h-4 w-4 group-hover:text-myOrange duration-300 group-hover:animate-bounce'/>
               Buy Now
             </Button>
-
+            {discount > 0 && (
+              <div className='scroll-m-20 text-xs font-semibold tracking-tight text-myWhite bg-myOrange absolute top-0 left-2 w-[87px] p-2 text-center uppercase rounded-tl-xl rounded-bl-xl myDiscount'>{`${discount}% Off`}</div>
+            )}
         </div>
   </div>
   )

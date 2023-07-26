@@ -8,7 +8,7 @@ const Promotion = () => {
       <h1 className="text-myBlackHead scroll-m-20 text-2xl font-extrabold tracking-tight lg:text-3xl">
         Our Promotions
       </h1>
-      <div className="flex mt-2 justify-center">
+      <div className="flex mt-2 justify-center mb-10">
         <div className="w-16 h-1 rounded-full bg-myOrange inline-flex" />
         </div>
         {/* Promotion starts here */}

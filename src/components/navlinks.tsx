@@ -53,7 +53,7 @@ export function NavigationMenuDemo() {
   return (
     <NavigationMenu>
       <NavigationMenuList>
-        <NavigationMenuItem>
+        {/* <NavigationMenuItem> */}
          
           <NavigationMenuItem>
           <Link href={"/"} legacyBehavior passHref>
@@ -61,7 +61,7 @@ export function NavigationMenuDemo() {
               Home
             </NavigationMenuLink>
           </Link>
-        </NavigationMenuItem>
+        {/* </NavigationMenuItem> */}
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Women</NavigationMenuTrigger>
@@ -107,7 +107,7 @@ const ListItem = React.forwardRef<
 >(({ className, title, children, ...props }, ref) => {
   return (
     <li>
-      <NavigationMenuLink asChild>
+      <NavigationMenuLink asChild >
         <a
           ref={ref}
           className={cn(

@@ -3,7 +3,7 @@ import { StaticImageData } from "next/image";
 export type Product = {
     id:number;
     title:string;
-    image?: string[]  | StaticImageData  | undefined;
+    image?: any;
     slug:string;
     price:number;
     category:string;
@@ -11,16 +11,18 @@ export type Product = {
     size:string[];
     color:string[];
     qty:number;
-    discount?:number;
+    discount?:any;
 };
 export type Cart = {
     id:number;
     title:string;
-    image?: string  | StaticImageData  | undefined;
+    image?: any;
     slug:string;
     price:number;
-    discount?:number;
+    discount?:any;
     category:string;
     size:string;
     qty:number;
+    uuid:number | string | undefined;
+    color:string;
 };

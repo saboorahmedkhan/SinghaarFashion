@@ -9,7 +9,7 @@ import { useAppSelector } from '@/app/store/hooks';
 const FeaturedProducts = () => {
     // My Data
     
-    const bestSell = useAppSelector((state)=>state.product);
+    const bestSell = useAppSelector((state)=>state.product.slice(0, 9));
   // Carousel Settings
         var settings = {
           dots: true,
